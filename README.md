@@ -2,6 +2,50 @@
 
 ## Computer Vision Core Research Directions
 
+### 📋 Overall Table of Contents
+
+<details>
+<summary><strong>Click to expand the full directory structure</strong> (major directions are bolded; click links to jump to sections)</summary>
+
+- **[1. Anomaly Detection](#anomaly-detection)**
+  - [1.1 Unsupervised Anomaly Detection](#1-unsupervised-anomaly-detection)
+    - [1.1.1 Full-Spectrum Unsupervised Anomaly Detection](#11-full-spectrum-unsupervised-anomaly-detection)
+  - [1.2 Few-Shot Anomaly Segmentation](#2-few-shot-anomaly-segmentation)
+    - [1.2.1 Class-Generalizable Few-Shot Anomaly Segmentation](#21-class-generalizable-few-shot-anomaly-segmentation)
+  - [1.3 Lightweight General Anomaly Detection](#3-lightweight-general-anomaly-detection)
+    - [1.3.1 General Anomaly Detection (AnomalyNCD)](#31-general-anomaly-detection-anomalyncd)
+- **[2. Anomaly Generation](#anomaly-generation)**
+  - [2.1 Controllable Image Generation](#1-controllable-image-generation)
+    - [2.1.1 CutPaste Method Generation](#11-cutpaste-method-generation)
+    - [2.1.2 GAN Generation](#12-gan-generation)
+    - [2.1.3 Diffusion Generation](#13-diffusion-generation)
+      - [2.1.3.1 Text-based Generation](#131-text-based-generation)
+      - [2.1.3.2 Image-based Generation](#132-image-based-generation)
+      - [2.1.3.3 Multi-Modal Generation](#133-multi-modal-generation)
+        - [2.1.3.3.1 Text-Image Multi-Modal](#1331-text-image-multi-modal)
+        - [2.1.3.3.2 Image-Depth Multi-Modal](#1332-image-depth-multi-modal)
+    - [2.1.4 Feature-level Anomaly Generation](#14-feature-level-anomaly-generation)
+  - [2.2 Precise Mask](#2-precise-mask)
+  - [2.3 Generation Quality Judgment and Evaluation System](#3-generation-quality-judgment-and-evaluation-system)
+  - [2.4 Improving Generation Speed](#4-improving-generation-speed)
+- **[3. Diffusion Model-Driven Image Fusion](#diffusion-model-driven-image-fusion)**
+  - [3.1 Diffusion Transformer-based Fusion](#1-diffusion-transformer-based-fusion)
+  - [3.2 Variational Autoencoder-free Latent Diffusion](#2-variational-autoencoder-free-latent-diffusion)
+- **[4. Advanced Visual Reasoning & Learning](#advanced-visual-reasoning--learning)**
+  - [4.1 Reinforced Visual Segmentation Reasoning](#1-reinforced-visual-segmentation-reasoning)
+    - [4.1.1 Unified Reinforced Reasoning for Segmentation](#11-unified-reinforced-reasoning-for-segmentation)
+  - [4.2 Self-Supervised Spatial Understanding](#2-self-supervised-spatial-understanding)
+    - [4.2.1 Self-Supervised Reinforcement Learning for Spatial Understanding](#21-self-supervised-reinforcement-learning-for-spatial-understanding)
+  - [4.3 Vision-Language Alignment](#3-vision-language-alignment)
+    - [4.3.1 Vision-Language Alignment with Semantic Hierarchy](#31-vision-language-alignment-with-semantic-hierarchy)
+- **[5. 3D Visual Modeling & Learning](#3d-visual-modeling--learning)**
+  - [5.1 3D Scene Generation](#1-3d-scene-generation)
+    - [5.1.1 Semantic Occupancy-based 3D Scene Generation](#11-semantic-occupancy-based-3d-scene-generation)
+  - [5.2 Point Cloud Efficient Learning](#2-point-cloud-efficient-learning)
+    - [5.2.1 Parameter-Efficient Fine-Tuning for Point Clouds](#21-parameter-efficient-fine-tuning-for-point-clouds)
+
+</details>
+
 ## Anomaly Detection
 Anomaly detection represents a core research direction in computer vision, addressing the challenge of identifying rare, abnormal patterns in real-world scenarios (e.g., industrial defects, medical anomalies). These techniques break through the bottleneck of scarce abnormal samples, providing reliable solutions for high-precision inspection tasks.
 
@@ -110,7 +154,7 @@ Text-image multi-modal generation combines natural language descriptions with RG
 - AnomalyXFusion: Multi-modal Anomaly Synthesis with Diffusion [[2024]](https://arxiv.org/abs/2404.19444) [[data]](https://github.com/hujiecpp/MVTec-Caption) [[code]](https://github.com/your-code-link-here)
 - A Novel Approach to Industrial Defect Generation through Blended Latent Diffusion Model with Online Adaptation [[2024]](https://arxiv.org/abs/2402.19330) [[code]](https://github.com/GrandpaXun242/AdaBLDM)
 - AnomalyControl: Learning Cross-modal Semantic Features for Controllable Anomaly Synthesis [[2024]](https://arxiv.org/abs/2412.06510) [[code]](https://github.com/your-code-link-here)
-- AnomalyControl: Highly-Aligned Anomalous Image Generation with Controlled Diffusion Model [[ACM MM 2025]](https://dl.acm.org/doi/abs/10.1145/3746027.3755274) [[code]](https://github.com/your-code-link-here)
+- AnomalyControl: Highly-Aligned Anomalous Image Generation with Controlled Diffusion Model [[ACM MM 2025]](https://dl.acm.org/doi/abs/10.345/3746027.3755274) [[code]](https://github.com/your-code-link-here)
 - Anomagic: Crossmodal Prompt-driven Zero-shot Anomaly Generation [[AAAI 2026]](https://arxiv.org/abs/2511.10020) [[code]](https://github.com/yuxin-jiang/Anomagic)
 
 ###### 1.3.3.2 Image-Depth Multi-Modal
