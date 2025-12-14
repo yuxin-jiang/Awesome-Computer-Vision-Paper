@@ -75,7 +75,7 @@ Few-shot anomaly segmentation aims to segment abnormal regions with only a small
 
 #### 2.1 Class-Generalizable Few-Shot Anomaly Segmentation
 Class-generalizable few-shot anomaly segmentation enables segmentation of unseen anomaly classes with only a few samples, leveraging dictionary-based representation learning to capture universal anomaly patterns. This is vital for low-resource industrial scenarios where labeled defect samples are scarce.
-- DictAS: A Framework for Class-Generalizable Few-Shot Anomaly Segmentation via Dictionary Lookup [[arXiv 2025]](https://arxiv.org/abs/2508.13560)
+- DictAS: A Framework for Class-Generalizable Few-Shot Anomaly Segmentation via Dictionary Lookup [[ICCV 2025]](https://arxiv.org/abs/2508.13560)[[code]](https://github.com/xiaozhen228/DictAS)
 
 ### 3. Lightweight General Anomaly Detection
 Lightweight general anomaly detection focuses on developing efficient, low-complexity models that can be deployed on edge devices. This direction addresses the demand for high-throughput and low-cost anomaly detection in industrial inspection pipelines.
@@ -196,6 +196,7 @@ To clarify the structure, here's a numbered outline of the categories (major cat
 
 ### 1. Diffusion Transformer-based Fusion
 Diffusion Transformer (DiT) combines the strengths of diffusion models (high-quality generation) and transformers (long-range semantic modeling), enabling unified semantic modeling and controllable fusion. This approach excels in preserving structural details and semantic consistency across fused images.
+- Towards Unified Semantic and Controllable Image Fusion: A Diffusion Transformer Approach [[TPAMI 2025]](https://arxiv.org/abs/2512.07170) [[code]](https://github.com/Henry-Lee-real/DiTFuse)
 
 ### 2. Variational Autoencoder-free Latent Diffusion
 Traditional Latent Diffusion Models (LDMs) rely on Variational Autoencoders (VAEs) for latent space mapping, which introduces reconstruction errors and computational overhead. VAE-free LDMs eliminate this dependency, reducing latency and preserving image fidelity—critical for real-time fusion and generation tasks.
@@ -223,21 +224,21 @@ Reinforced visual segmentation reasoning integrates reinforcement learning into 
 
 #### 1.1 Unified Reinforced Reasoning for Segmentation
 Unified reinforced reasoning unifies segmentation tasks (e.g., object, scene, anomaly segmentation) into a single framework, leveraging reinforcement learning to optimize reasoning paths. This improves generalization across diverse segmentation scenarios and reduces task-specific tuning costs.
-- LENS: Learning to Segment Anything with Unified Reinforced Reasoning [[arXiv 2025]](https://arxiv.org/abs/2508.14153)
+- LENS: Learning to Segment Anything with Unified Reinforced Reasoning [[AAAI 2026 Oral]](https://arxiv.org/abs/2508.14153)[[code]](https://github.com/hustvl/LENS)
 
 ### 2. Self-Supervised Spatial Understanding
 Self-supervised spatial understanding aims to enhance models' ability to perceive spatial information (e.g., 3D geometry, scene layout) without labeled spatial data. This direction is critical for 3D scene generation, autonomous driving perception, and other tasks that require accurate spatial awareness.
 
 #### 2.1 Self-Supervised Reinforcement Learning for Spatial Understanding
 Self-supervised reinforcement learning (SSRL) enhances spatial understanding (e.g., 3D geometry, scene layout) without labeled spatial data. Spatial-SSRL focuses on spatial-aware reward design, enabling models to learn spatial priors from unlabeled data—critical for 3D scene generation and autonomous driving perception.
-- Spatial-SSRL: Enhancing Spatial Understanding via Self-Supervised Reinforcement Learning [[arXiv 2025]](https://arxiv.org/abs/2510.27606)
+- Spatial-SSRL: Enhancing Spatial Understanding via Self-Supervised Reinforcement Learning [[arXiv 2025]](https://arxiv.org/abs/2510.27606)[[code]](https://github.com/InternLM/Spatial-SSRL)
 
 ### 3. Vision-Language Alignment
 Vision-language alignment focuses on bridging the semantic gap between visual data and natural language, enabling more accurate cross-modal interaction. This direction is important for cross-modal retrieval, generation, and anomaly description in industrial scenarios.
 
 #### 3.1 Vision-Language Alignment with Semantic Hierarchy
 Vision-language alignment with semantic hierarchy and monotonicity addresses the "semantic gap" between images and text by modeling hierarchical semantic relationships (e.g., object → attribute → scene). This improves cross-modal retrieval, generation, and anomaly description in industrial scenarios.
-- HiMo-CLIP: Modeling Semantic Hierarchy and Monotonicity in Vision-Language Alignment [[arXiv 2025]](https://arxiv.org/abs/2511.06653)
+- HiMo-CLIP: Modeling Semantic Hierarchy and Monotonicity in Vision-Language Alignment [[AAAI 2026 Oral ]](https://arxiv.org/abs/2511.06653)[[code]](github.com/UnicomAI/HiMo-CLIP)
 
 ## 3D Visual Modeling & Learning
 3D visual modeling and learning focus on creating semantically consistent 3D scenes and efficiently learning point cloud representations, addressing challenges like cross-task inconsistency and high computational costs in 3D modeling. This direction is key for autonomous driving, AR/VR, and robotics.
@@ -259,14 +260,14 @@ To clarify the structure, here's a numbered outline of the categories (major cat
 
 #### 1.1 Semantic Occupancy-based 3D Scene Generation
 Semantic occupancy-based cross-task mutual learning unifies multiple 3D tasks (e.g., reconstruction, segmentation, generation) by modeling semantic occupancy (voxel-level semantic presence). This reduces redundancy in multi-task training and improves 3D scene consistency.
-- OccScene: Semantic Occupancy-based Cross-task Mutual Learning for 3D Scene Generation [[arXiv 2025]](https://arxiv.org/abs/2412.11183)
+- OccScene: Semantic Occupancy-based Cross-task Mutual Learning for 3D Scene Generation [[TPAMI 2025]](https://arxiv.org/abs/2412.11183)
 
 ### 2. Point Cloud Efficient Learning
 Point cloud efficient learning focuses on reducing the computational cost and number of trainable parameters for point cloud models, enabling low-cost adaptation to new domains/tasks. This is critical for edge deployment of point cloud-based applications.
 
 #### 2.1 Parameter-Efficient Fine-Tuning for Point Clouds
 Parameter-efficient fine-tuning (PEFT) in the spectral domain reduces the number of trainable parameters for point cloud models, enabling low-cost adaptation to new domains/tasks without full retraining. This is critical for edge deployment of point cloud-based anomaly detection/3D reconstruction.
-- Parameter-Efficient Fine-Tuning in Spectral Domain for Point Cloud Learning [[arXiv 2025]](https://arxiv.org/abs/2410.08114)
+- Parameter-Efficient Fine-Tuning in Spectral Domain for Point Cloud Learning [[TPAMI 2025]](https://arxiv.org/abs/2410.08114)[[code]](https://github.com/jerryfeng2003/PointGST)
 
 💌 **Acknowledgement**  
 We acknowledge the open-source community (e.g., CVPR 2025, AAAI 2026, ArXiv) for providing access to cutting-edge research papers and code repositories. Big thanks to the authors of these works for advancing the field of computer vision! We also acknowledge the [Awesome Industrial Anomaly Detection](https://github.com/M-3LAB/awesome-industrial-anomaly-detection) repository for its comprehensive paper list and datasets on industrial image anomaly/defect detection. Big thanks to this amazing open-source work!
