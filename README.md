@@ -217,7 +217,7 @@ To clarify the structure, here's a numbered outline of the categories (major cat
 - **[2. Self-Supervised Spatial Understanding](#2-self-supervised-spatial-understanding)**
   - [2.1 Self-Supervised Reinforcement Learning for Spatial Understanding](#21-self-supervised-reinforcement-learning-for-spatial-understanding)
 - **[3. Vision-Language Alignment](#3-vision-language-alignment)**
-  - [3.1 Vision-Language Alignment with Semantic Hierarchy](#31-vision-language-alignment-with-semantic-hierarchy)**
+  - [3.1 Vision-Language Alignment with Semantic Hierarchy](#31-vision-language-alignment-with-semantic-hierarchy)
 
 ### 1. Reinforced Visual Segmentation Reasoning
 Reinforced visual segmentation reasoning integrates reinforcement learning into segmentation tasks to optimize reasoning paths, enabling unified handling of multiple segmentation tasks and improving model generalization. This direction bridges the gap between low-level feature extraction and high-level semantic reasoning.
@@ -253,7 +253,7 @@ To clarify the structure, here's a numbered outline of the categories (major cat
 - **[1. 3D Scene Generation](#1-3d-scene-generation)**
   - [1.1 Semantic Occupancy-based 3D Scene Generation](#11-semantic-occupancy-based-3d-scene-generation)
 - **[2. Point Cloud Efficient Learning](#2-point-cloud-efficient-learning)**
-  - [2.1 Parameter-Efficient Fine-Tuning for Point Clouds](#21-parameter-efficient-fine-tuning-for-point-clouds)**
+  - [2.1 Parameter-Efficient Fine-Tuning for Point Clouds](#21-parameter-efficient-fine-tuning-for-point-clouds)
 
 ### 1. 3D Scene Generation
 3D scene generation focuses on creating semantically consistent and realistic 3D scenes, which is a key technology for autonomous driving, AR/VR, and robotics. Semantic occupancy-based methods unify multiple 3D tasks, reducing redundancy in multi-task training.
