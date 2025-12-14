@@ -82,7 +82,7 @@ Lightweight general anomaly detection focuses on developing efficient, low-compl
 
 #### 3.1 General Anomaly Detection (AnomalyNCD)
 AnomalyNCD (Nearest Class Distance) is a lightweight, general-purpose anomaly detection method that avoids complex generative models, focusing on distance-based outlier scoring for fast and scalable detection. It is suitable for edge devices and high-throughput inspection pipelines.
-- AnomalyNCD: Towards Novel Anomaly Class Discovery in Industrial Scenarios [[CVPR 2025]](https://arxiv.org/abs/2410.14379) [[Github]](https://github.com/HUST-SLOW/AnomalyNCD)
+- AnomalyNCD: Towards Novel Anomaly Class Discovery in Industrial Scenarios [[CVPR 2025]](https://arxiv.org/abs/2410.14379) [[code]](https://github.com/HUST-SLOW/AnomalyNCD)
 
 ## Anomaly Generation
 Anomaly Generation refers to the synthesis of artificial anomalous data to augment scarce real-world defect samples in industrial settings. This technique addresses the fundamental challenge of data imbalance in anomaly detection, where normal samples vastly outnumber anomalies, hindering model training.
