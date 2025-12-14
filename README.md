@@ -68,7 +68,7 @@ Unsupervised anomaly detection focuses on identifying abnormal patterns without 
 
 #### 1.1 Full-Spectrum Unsupervised Anomaly Detection
 Full-spectrum unsupervised anomaly detection unifies detection frameworks for all types of anomalies (e.g., surface defects, structural deformations, functional anomalies) without labeled anomaly data. This eliminates the need for domain-specific tuning and reduces deployment costs in manufacturing.
-- One Dinomaly2 Detect Them All: A Unified Framework for Full-Spectrum Unsupervised Anomaly Detection [[arXiv 2025]](https://arxiv.org/abs/2510.17611)
+- One Dinomaly2 Detect Them All: A Unified Framework for Full-Spectrum Unsupervised Anomaly Detection [[arXiv 2025]](https://arxiv.org/abs/2510.17611)[[code]](https://github.com/HUST-SLOW/AnomalyNCD)
 
 ### 2. Few-Shot Anomaly Segmentation
 Few-shot anomaly segmentation aims to segment abnormal regions with only a small number of labeled anomaly samples, which is suitable for low-resource scenarios where labeled defect samples are scarce. This direction focuses on improving the generalization ability of models to unseen anomaly classes.
