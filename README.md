@@ -197,6 +197,8 @@ To clarify the structure, here's a numbered outline of the categories (major cat
 ### 1. Diffusion Transformer-based Fusion
 Diffusion Transformer (DiT) combines the strengths of diffusion models (high-quality generation) and transformers (long-range semantic modeling), enabling unified semantic modeling and controllable fusion. This approach excels in preserving structural details and semantic consistency across fused images.
 - Towards Unified Semantic and Controllable Image Fusion: A Diffusion Transformer Approach [[TPAMI 2025]](https://arxiv.org/abs/2512.07170) [[code]](https://github.com/Henry-Lee-real/DiTFuse)
+- Text-DiFuse: An Interactive Multi-Modal Image Fusion Framework based on Text-modulated Diffusion Model (NeurIPS 2024) [Paper][Code]
+- TextFusion: Unveiling the Power of Textual Semantics for Controllable Image Fusion (Information Fusion 2025) [Paper][Code]
 
 ### 2. Variational Autoencoder-free Latent Diffusion
 Traditional Latent Diffusion Models (LDMs) rely on Variational Autoencoders (VAEs) for latent space mapping, which introduces reconstruction errors and computational overhead. VAE-free LDMs eliminate this dependency, reducing latency and preserving image fidelity—critical for real-time fusion and generation tasks.
